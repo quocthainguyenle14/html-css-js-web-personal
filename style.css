@@ -263,8 +263,9 @@ section {
 }
 
 .text-container p {
-    font-size: 25px;
+    font-size: 18px;
     text-align: justify ;
+    display: flex;
 }
 
 .about-details-container {
@@ -312,7 +313,7 @@ section {
 
 .article-container p {
     text-align: justify;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 /* CONTACT */
