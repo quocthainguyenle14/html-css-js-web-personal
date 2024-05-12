@@ -1,3 +1,165 @@
+<<<<<<< HEAD
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thai Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Thai Nguyen</div>
+        <div>
+            <ul class="nav-link">
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">About</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Thai Nguyen</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="ToggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                    <li><a href="#about" onclick="ToggleMenu()">About</a></li>
+                    <li><a href="#education" onclick="ToggleMenu()">Education</a></li>
+                    <li><a href="#experience" onclick="ToggleMenu()">Experience</a></li>
+                    <li><a href="#contact" onclick="ToggleMenu()">About</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./assets/profile-pic.png" alt="Thai Nguyen picture">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Thai Nguyen</h1>
+            <p class="section__text__p2">A Tech-savvy proposal engineer</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./assets/resume.pdf')">
+                Download CV</button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">
+                Contact info</button>
+            </div>
+            <div id="socials-container">
+                <img src="./assets/linkedin.png" alt="My Linkedin Profile"
+                class="icon" onclick="location.href='https://www.linkedin.com/in/quocthai-nguyenle-1408/'">
+                <img src="./assets/github.png" alt="My Github Profile"
+                class="icon" onclick="location.href='https://github.com/quocthainguyenle14'">
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="./assets/about-pic.png" alt="profile picture" class="about-pic">
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./assets/experience.png" alt="experience icon" class="icon">
+                        <h3>Experience</h3>
+                        <p>2 years <br>B2B Sales & Proposal Engineer</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="./assets/education.png" alt="education icon" class="icon">
+                        <h3>Education</h3>
+                        <p>Bachelor in E.E<br>Ho Chi Minh University of Technology<br>TOEIC 950</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>Hey there! I'm Thai, a 25 years old from vietnam with a passion for bridging the gap between technical innovation and business success. With a background in engineering, I thrive on exploring the intersection of technology, commerce and writings, bringing a unique perspective to the table. Let's connect and explore on how i can help to win your need customers!</p>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="arrow"
+        onclick="location.href='./#experience'">
+    </section>
+    <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">QMTEK IT Solution</h2>
+                    <div class="experience-article-container">
+                        <article>
+                            <div>
+                                <h3>Dec 2023 - Now</h3>
+                                    <li>Managed sales operations.</li>
+                                    <li>Conducted market research, prescripted proposal on IT related solutions.</li>
+                                    <li>Prepared and price-optimized the customers’ request for quotations.</li>
+                                    <li>Resolved technical or administrative issues during project execution with both internal and external
+                                    stakeholders.</li>
+                                    <li>Skills: Proposal, Data and Accounts management, IT devices and solution.</li>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Schneider Electric</h2>
+                    <div class="experience-article-container">
+                        <article>
+                            <div>
+                                <h3>Apr 2022 - Aug 2023</h3>
+                                    <li>Tendered and proposals preparations for bidding.</li>
+                                    <li>Managed over 30 strategic accounts.</li>
+                                    <li>Maintain the Quotation & Pricing data Platform to streamline quote-order-sales processes.</li>
+                                    <li>Responsible for monthly reports (Delta Price, Quotation performance).</li>
+                                    <li>Skills: Salesforce CRM, Oracle CPQ, Excel, Proposal, Data management and analytics, Accounts management. </li>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="proposal">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Proposal to you...</h1>
+        <div class="proposal-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <div class="article-container">
+                        <article>
+                            <p>Effective software development proposal writing is essential for securing client buy-in and ensuring project success. A well-crafted proposal serves as a roadmap, aligning client expectations with project outcomes and fostering clear communication throughout the development process. As a technical proposal writer, I bring a unique blend of technical expertise and persuasive communication skills to the table. My experience in the field equips me with the ability to understand client needs, translate them into actionable project plans, and well-crafted the value proposition of proposed solutions. Having prepared over 100 proposals, I have the ability to optimize costs while delivering comprehensive solutions tailored to diverse clients. My portfolio includes engagements with over 50 clients spanning multinational corporations to government entities across varied industries such as manufacturing, defense, and data centers. What sets me apart is my commitment to ensuring client engagement and comprehension by articulating technical concepts in layman's terms, fostering smooth workflows between clients and engineering teams, and ultimately driving project success with a proven track record of delivering results.</p>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./assets/email.png" alt="email icon" class="icon contact-icon email-icon">
+                <p><a href="mailto:quocthainguyenle14@gmail.com">quocthainguyenle14@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./assets/linkedin.png" alt="linkedin icon" class="icon contact-icon">
+                <p><a href="mailto:quocthainguyenle14@gmail.com">Linkedin</a></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>Copyright &#169; 2024 Thai Nguyen. All right reserved</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+=======
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -176,4 +338,5 @@
     </footer>
     <script src="script.js"></script>
 </body>
+>>>>>>> 01293efe0d85f025c5b228315cd6cf96115d2a78
 </html>
